@@ -1,0 +1,57 @@
+---
+id: cbae6089-3385-4987-bc48-4a1fc1e650b5
+$schema: https://schemas.opendatacube.org/dataset
+product: {name: GTOPO_30AS}
+crs: epsg:4326
+grids:
+  default:
+    shape: [6000, 4800]
+    transform: [0.00833333333333, 0.0, -59.99999999999999, 0.0, -0.00833333333333,
+      90.0, 0, 0, 1]
+measurements:
+  DEM: {path: 'D:\odc\GTOPO_30AS\data\gt30w060n90.tif'}
+properties: {datetime: '1996-12-01 00:00:00.0000000Z', 'odc:file_format': GeoTIFF}
+lineage: {}
+---
+id: dae5eaf1-e0b6-4946-9f31-babbd3483536
+$schema: https://schemas.opendatacube.org/dataset
+product: {name: GTOPO_30AS}
+crs: epsg:4326
+grids:
+  default:
+    shape: [6000, 4800]
+    transform: [0.00833333333333, 0.0, -100.0, 0.0, -0.00833333333333, 90.0, 0, 0,
+      1]
+measurements:
+  DEM: {path: 'D:\odc\GTOPO_30AS\data\gt30w100n90.tif'}
+properties: {datetime: '1996-12-01 00:00:00.0000000Z', 'odc:file_format': GeoTIFF}
+lineage: {}
+---
+id: bd7451b2-cc29-4a0a-bb55-711eb46bc3fd
+$schema: https://schemas.opendatacube.org/dataset
+product: {name: GTOPO_30AS}
+crs: epsg:4326
+grids:
+  default:
+    shape: [6000, 4800]
+    transform: [0.00833333333333, 0.0, -140.0, 0.0, -0.00833333333333, 90.0, 0, 0,
+      1]
+measurements:
+  DEM: {path: 'D:\odc\GTOPO_30AS\data\gt30w140n90.tif'}
+properties: {datetime: '1996-12-01 00:00:00.0000000Z', 'odc:file_format': GeoTIFF}
+lineage: {}
+---
+id: 3f7295ff-90c7-47cf-b881-289a42f22371
+$schema: https://schemas.opendatacube.org/dataset
+product: {name: GTOPO_30AS}
+crs: epsg:4326
+grids:
+  default:
+    shape: [6000, 4800]
+    transform: [0.00833333333333, 0.0, -180.0, 0.0, -0.00833333333333, 90.0, 0, 0,
+      1]
+measurements:
+  DEM: {path: 'D:\odc\GTOPO_30AS\data\gt30w180n90.tif'}
+properties: {datetime: '1996-12-01 00:00:00.0000000Z', 'odc:file_format': GeoTIFF}
+lineage: {}
+
